@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.sisalto{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(227, 227, 227);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    gap: 60px;
+    align-content: center;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.7),-2px -2px 5px rgba(0,0,0,.7);
+        
+}
+
+h1{
+    display: flex;   
+    justify-content: center;   
+    color: black;
+}
+
+.nappi{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nappi button{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(37, 37, 120);
+    border: transparent;
+    border-radius: 10px;
+    color: white;
+    width: 70%;
+   
+    font-size: 1.5em;
+    
+}
+
+.nappi button:hover{
+    background-color: rgb(113, 116, 151);
+    scale: 110%;
+    color: rgb(230, 32, 137);
+}
+
+
+
+
+
+
